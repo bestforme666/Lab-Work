@@ -1,0 +1,45 @@
+@fontColor: white;
+@text-center: center;
+@backgroundColor: #c0ffdd;
+
+#button() {
+    .navbuttons {
+        background-color: transparent;
+        border: 0;
+    }
+}
+
+body {
+    background-color: #c0ffdd;
+}
+
+.header {
+    color: @fontColor;
+    text-align: @text-center;
+}
+
+nav {
+    height: 40px;
+    width: 100%;
+    background-color: darken(@backgroundColor, 20%);
+    .login {
+        width: 50px;
+        #button > .navbuttons
+    }
+}
+@media (min-width:768px);
+    .block{
+        width: 400px;
+        height: 400px;
+        &-inner{
+            width: 100px;
+            height: 100px;
+            &-btn{
+                border-radius: 4px;
+            }
+        }
+}
+//    nav{
+//        background-color: lighten(@backgroundColor, 20%);
+//        
+//}

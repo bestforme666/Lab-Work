@@ -1,0 +1,28 @@
+body {
+  background-color: #c0ffdd;
+}
+.header {
+  color: #ffffff;
+  text-align: center;
+}
+nav {
+  height: 40px;
+  width: 100%;
+  background-color: #5affa6;
+}
+nav .login {
+  width: 50px;
+  background-color: transparent;
+  border: 0;
+}
+.block {
+  width: 400px;
+  height: 400px;
+}
+.block-inner {
+  width: 100px;
+  height: 100px;
+}
+.block-inner-btn {
+  border-radius: 4px;
+}

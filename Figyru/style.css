@@ -1,0 +1,28 @@
+body{
+	text-align: center;
+}
+.round{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: red;
+		margin: 20px 0 20px 0;
+}
+.square{
+	width: 200px!important;
+	height: 200px !important;
+	background-color: yellow;
+	margin: 20px 0 20px 0;
+}
+.styled p:last-child{
+	background-color: red;
+	color: white;
+}
+#w1{
+	width: 150px;
+	height: 150px;
+}
+#w2{
+	width: 100px;
+	height: 100px;
+}
